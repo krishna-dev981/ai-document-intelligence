@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pypdf
+--extra-index-url https://download.pytorch.org/whl/cpu
+sentence-transformers
+torch==2.5.1+cpu
+rank-bm25
+faiss-cpu
+numpy<2
+ollama
+PyJWT>=2.9,<3
